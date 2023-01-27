@@ -2,7 +2,10 @@
   "name": "cebolinho-cli",
   "version": "0.1.0",
   "description": "A simple Pomodoro CLI timer",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "bin": {
+    "pomodoro": "./dist/index.js"
+  },
   "scripts": {
     "start": "node dist/index.js"
   },
